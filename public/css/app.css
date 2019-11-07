@@ -68,7 +68,7 @@ div#dp-iconos-redes {display: flex;width: 100%;justify-content: space-around;mar
 
     div#dp-galeria { display: flex; flex-wrap: wrap; justify-content: space-around;    }
 
-    .centrar-imagen {margin-top: 25px;margin-left: 15px;box-shadow: 10px 5px 10px 0px rgba(0,0,0,0.75);}
+    .centrar-imagen {margin-top: 25px;margin-left: 15px;}
 
     div#dp-contenedor-contacto { background-color: #FFFFFF; height: 420px; width: 30%;    }
 
