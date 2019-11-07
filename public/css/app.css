@@ -10,7 +10,7 @@ div#dp-papel img {width: 315px;}
 
 div#dp-galeria {display: flex;flex-direction: column;align-items: center;}
 
-.centrar-imagen { margin-top: 10px;}
+.centrar-imagen {margin-top: 10px;-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);}
 
 div#dp-btn-vermas a { text-decoration: none; color: #FFFFFF; font-size: 20px; font-weight: bold;    }
 
@@ -20,7 +20,7 @@ div#dp-contenedor-contacto {  background-color: #FFFFFF;  height: 298px;  width:
 
 .dp-titulo-contacto { height: 50px; margin-top: 30px; font-size: 30px; color: #4D6F50; font-weight: bold;}
 
-div#dp-contenedor-contacto { display: flex; flex-direction: column; align-items: center; box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);}
+div#dp-contenedor-contacto { display: flex; flex-direction: column; align-items: center; -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);}
 
 .dp-contenido-contacto { margin-top: 45px; color: #707070; font-weight: bold; font-size: 20px;}
 
@@ -64,13 +64,13 @@ div#dp-iconos-redes {display: flex;width: 100%;justify-content: space-around;mar
 
     div#dp-contenedor-ppal {display: flex;justify-content: space-around;margin-top: 20px;}
 
-    div#dp-contenido-ppal {display: flex;flex-direction: column;justify-content: space-between;height: 420px;background-color: #FFFFFF;width: 797px;}
+    div#dp-contenido-ppal {display: flex;flex-direction: column;justify-content: space-between;/* height: 420px; */background-color: #FFFFFF;width: 65%;}
 
     div#dp-galeria { display: flex; flex-wrap: wrap; justify-content: space-around;    }
 
-    .centrar-imagen { margin-top: 10px; box-shadow: 10px 5px 10px 0px rgba(0,0,0,0.75);    }
+    .centrar-imagen {margin-top: 25px;margin-left: 15px;box-shadow: 10px 5px 10px 0px rgba(0,0,0,0.75);}
 
-    div#dp-contenedor-contacto { background-color: #FFFFFF; height: 420px; width: 345px;    }
+    div#dp-contenedor-contacto { background-color: #FFFFFF; height: 420px; width: 30%;    }
 
     .dp-titulo-contacto { height: 50px; margin-top: 30px; font-size: 30px; color: #4D6F50; font-weight: bold;    }
 
