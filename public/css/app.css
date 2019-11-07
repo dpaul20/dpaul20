@@ -4,9 +4,9 @@ body { font-family: 'Roboto', sans-serif; background-color: #ECEEEF; }
 
 div#dp-header {background-color: #1B5E20;background-image: url('../img/dp-fondo-iconos.png');height: 330px;display: flex;flex-direction: column;justify-content: space-between;align-items: center;}
 
-div#dp-perfil img {height: 140px;}
+#dp-perfil img {height: 140px;}
 
-div#dp-papel img {width: 315px;}
+#dp-papel img {width: 315px;}
 
 div#dp-galeria {display: flex;flex-direction: column;align-items: center;}
 
