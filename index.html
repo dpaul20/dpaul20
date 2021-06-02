@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Hola, Soy Deivy</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<script type="text/javascript" src="/dpaul20/public/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/dpaul20/public/js/bootstrap.bundle.js"></script>
@@ -15,46 +16,57 @@
 	
 </head>
 <body>
-	<div class="container-fluid no-padding">
-        <div id="dp-header">
+	<div class="container-fluid p-0">
+        <div id="dp-header" class="d-flex flex-column flex-lg-row justify-content-around align-items-center">
         	<div id="dp-iconos-verticales">
         		<a href="https://www.linkedin.com/in/deivy-paul-guti%C3%A9rrez-vielma/" target="_blank"><img src="/dpaul20/public/img/redes-vertical/linkedin-brands.png" alt="linkedin"></a>
 				
-				<img src="/dpaul20/public/img/redes-vertical/facebook-brands.png" alt="facebook">
+				<!-- <img src="/dpaul20/public/img/redes-vertical/facebook-brands.png" alt="facebook">
 				<img src="/dpaul20/public/img/redes-vertical/twitter-brands.png" alt="twitter">
-				<img src="/dpaul20/public/img/redes-vertical/instagram-brands.png" alt="instagram">
+				<img src="/dpaul20/public/img/redes-vertical/instagram-brands.png" alt="instagram"> -->
         	</div>
+
         	<div id="dp-perfil">
-        		<img src="/dpaul20/public/img/dp-perfil.png" alt="Foto Deivy" class="dp-perfil">
+				<a href="sobre-mi.html">
+					<img src="/dpaul20/public/img/dp-perfil.png" alt="Foto Deivy" class="dp-perfil">
+				</a>
         	</div>
-        	<div id="dp-papel">
-        		<a href="sobre-mi.html"><img src="/dpaul20/public/img/dp-papel.png" alt="Hola, Soy yo"></a>
-        		
-        	</div>
+
+			<div class="p-3 text-white sobre-mi text-center d-lg-none">
+				<p>Hola soy Deivy, nací en Venezuela. <br> Soy programador Fullstack PHP desde el año 2012. Me destaco con algunos frameworks como Laravel y Yii. También tengo conocimiento en Drupal 8 y de React JS. <br> Si quieres conocer un poco más sobre mi entra <a href="sobre-mi.html" class="text-decoration-none"> 👉 aquí</a> </p>
+			</div>
+        	<div class="frameworks p-3 rounded d-none d-lg-block">
+				<h4 class="text-white-50">Frameworks</h4>
+				<div class="d-lg-flex justify-content-around align-items-center">
+					<div class="img-fluid custom-slide p-2"><img src="/dpaul20/public/img/framework/laravel.svg"><img class="ml-1" src="/dpaul20/public/img/framework/laravel-2.svg"></div>
+					<div class="img-fluid custom-slide p-2"><img src="/dpaul20/public/img/framework/yii.svg"></div>
+					<div class="img-fluid custom-slide p-2 d-flex align-items-center"><img src="/dpaul20/public/img/framework/drupal.png"> <h4 class="m-0 ml-1 text-white-50">Drupal 8</h4></div>
+				</div>
+			</div>
+			
+        
         </div>
+		<div class="d-none d-lg-flex align-items-center justify-content-around">
+			<div class="p-3 text-white sobre-mi mr-auto">
+				<p>Hola soy Deivy, nací en Venezuela. <br> Soy programador Fullstack PHP desde el año 2012. Me destaco con algunos frameworks como Laravel y Yii. También tengo conocimiento en Drupal 8 y de React JS. <br> Si quieres conocer un poco más sobre mi entra <a href="sobre-mi.html" class="text-decoration-none"> 👉 aquí</a> </p>
+			</div>
+			<div class="m-auto">
+				<a class="btn btn-outline-primary" download="Deivy_cv" href="/dpaul20/public/documents/curriculum-vitae-deivy-01-06-2021.pdf">Descargar CV</a>
+			</div>
+			
+		</div>
+		
         <div id="dp-contenedor-ppal">
         	<div id="dp-contenido-ppal">
                 <div class="dp-titulo">
-                    Algunos de mis trabajos
+                    Algunos de mis trabajos propios
                 </div>
-        		<div id="dp-galeria">
-        			<div class="centrar-imagen">
-        				<img src="/dpaul20/public/img/galeria/intranet-rf.png" alt="intranet-rf">
-        			</div>
+        		<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
         			<div class="centrar-imagen">
         				<img src="/dpaul20/public/img/galeria/gutviel.png" alt="gutviel">
         			</div>
         			<div class="centrar-imagen">
-        				<img src="/dpaul20/public/img/galeria/eqcell2.png" alt="eqcell2">
-        			</div>
-        			<div class="centrar-imagen">
         				<img src="/dpaul20/public/img/galeria/copeielvigia2.png" alt="copeielvigia2">
-        			</div>
-        			<div class="centrar-imagen">
-        				<img src="/dpaul20/public/img/galeria/centro-mila.png" alt="centro-mila">
-        			</div>
-        			<div class="centrar-imagen">
-        				<img src="/dpaul20/public/img/galeria/calculador-met.png" alt="intranet-rf">
         			</div>
         		</div>
         		<div id="dp-btn-vermas">
@@ -71,16 +83,16 @@
 					Correo: <a href="mailto:deivy.gutierrez@gmail.com">deivy.gutierrez@gmail.com</a>.<br> 
 					<div id="dp-iconos-redes">
 						<a href="https://www.linkedin.com/in/deivy-paul-guti%C3%A9rrez-vielma/" target="_blank"><img src="/dpaul20/public/img/redes/linkedin-brands.png" alt="linkedin"></a>
-						<img src="/dpaul20/public/img/redes/facebook-brands.png" alt="facebook">
+						<!-- <img src="/dpaul20/public/img/redes/facebook-brands.png" alt="facebook">
 						<img src="/dpaul20/public/img/redes/twitter-brands.png" alt="twitter">
-						<img src="/dpaul20/public/img/redes/instagram-brands.png" alt="instagram">
+						<img src="/dpaul20/public/img/redes/instagram-brands.png" alt="instagram"> -->
 					</div>
         		</div>		
         	</div>
         	
         </div>
     </div>
- 	
-	<script type="text/javascript" src="/dpaul20/public/js/app.js"></script>
+	
+	<script type="text/javascript" src="/dpaul20/public/js/app.js"></script>	
 </body>
 </html>

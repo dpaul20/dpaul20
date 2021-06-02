@@ -2,19 +2,17 @@ body { font-family: 'Roboto', sans-serif; background-color: #ECEEEF; }
 
 .no-padding { padding-left: 0px; padding-right: 0px; }
 
-div#dp-header {background-color: #1B5E20;background-image: url('../img/dp-fondo-iconos.png');height: 330px;display: flex;flex-direction: column;justify-content: space-between;align-items: center;}
+div#dp-header {background-color: #1B5E20;background-image: url('../img/dp-fondo-iconos.png');}
 
-.dp-perfil {height: 140px;}
+.dp-perfil { max-height: 140px;}
 
 #dp-papel img {width: 315px;}
 
-div#dp-galeria {display: flex;flex-direction: column;align-items: center;}
+/* div#dp-galeria {display: flex;flex-direction: column;align-items: center;} */
 
 .centrar-imagen {margin-top: 10px;-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);}
 
-div#dp-btn-vermas a { text-decoration: none; color: #FFFFFF; font-size: 20px; font-weight: bold;    }
-
-div#dp-btn-vermas {display: flex;justify-content: center;align-items: center;background-color: #1B5E20;height: 38px;margin-top: 10px;}
+div#dp-btn-vermas a { width: 100%; text-decoration: none; color: #FFFFFF; font-size: 20px; font-weight: bold; display: flex;justify-content: center;align-items: center;background-color: #1B5E20;height: 38px;margin-top: 10px; }
 
 div#dp-contenedor-contacto {  background-color: #FFFFFF;  height: 298px;  width: 100%;   }
 
@@ -84,32 +82,29 @@ p#caption { margin-bottom: 0px; text-align: center;}
 
 .centrar-imagen img { width: 280px; }
 
+.frameworks { background-color: #1B5E20; }
+
+.sobre-mi { background: rgb(27, 94, 32, 0.9);}
+
+.custom-slide img { max-height: 64px;}
+
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 // Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
-    div#dp-galeria {display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;flex-direction: unset;}
-    
-    div#dp-papel img {width: 412px;}
+    /* div#dp-galeria {display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;flex-direction: unset;} */
 
     .dp-contenedor-contacto {width: 100%;display: flex;justify-content: center;flex-direction: column;align-items: center;}
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    div#dp-header {height: 167px;display: flex;flex-direction: row;}
-    
-    div#dp-papel { align-self: flex-end;    }
-    
     div#dp-iconos-verticales { display: flex; flex-direction: column; justify-content: space-around; height: 160px;    }
 
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-    div#dp-papel img { width: 765px; }
-
-    div#dp-header {height: 330px;}
     
     .centrar-imagen { margin-top: 30px; margin-left: 15px; }
     
@@ -129,7 +124,7 @@ p#caption { margin-bottom: 0px; text-align: center;}
 
     div#dp-contenido-ppal {display: flex;flex-direction: column;justify-content: space-between;/* height: 420px; */background-color: #FFFFFF;width: 65%;}
 
-    div#dp-galeria { display: flex; flex-wrap: wrap; justify-content: space-around;    }
+    /* div#dp-galeria { display: flex; flex-wrap: wrap; justify-content: space-around;    } */
 
     .centrar-imagen {margin-top: 25px;margin-left: 15px;}
 
