@@ -1,98 +1,246 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<title>Hola, Soy Deivy</title>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <title>Hi, I'm Deivy</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<script type="text/javascript" src="/dpaul20/public/js/jquery.min.js"></script>
-	<script type="text/javascript" src="/dpaul20/public/js/bootstrap.bundle.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dpaul20/public/css/app.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    .left-bg-color {
+      background-color: #434b5b;
+    }
+    .profile {
+      display: block;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <div class="flex flex-row">
+      <div class="basis-2/5 left-bg-color text-white">
+        <div class="m-8">
+          <div class="">
+            <div class="left-color flex justify-center m-8">
+              <img
+                class="h-48 w-48 rounded-full profile"
+                src="./public/img/profile.jpeg"
+                alt="Foto de Deivy"
+              />
+            </div>
+            <div class="uppercase text-2xl font-semibold">
+              Deivy Paúl Gutitérrez Vielma
+            </div>
+            <div class="uppercase">Systems Engineer | FullStack Developer</div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div>
+            <div class="my-2 uppercase font-semibold underline">Profile</div>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link href="/dpaul20/public/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="/dpaul20/public/css/app.css" rel="stylesheet" />
+            <p class="text-justify">
+              I'm a Sr Full-stack Developer working with PHP, Laravel Framework,
+              Eloquent ORM, NodeJS, NestJS Framework, VueJS Framework,
+              JavaScript, Bootstrap Framework, SQL, Git, and others. Also, I
+              have experience writing unit tests/integration with PHPUnit and
+              JestJS. Currently, I'm working with NestJS framework. Moreover, I
+              am focused on working with interesting projects that allow me to
+              continue growing and expand my knowledge and experience. As well,
+              I adapt to changes quickly and learn programming languages easily.
+            </p>
+          </div>
+          <br />
+          <div class="">
+            <div class="my-2 uppercase font-semibold underline">
+              Summary of Skills
+            </div>
 
-	
-</head>
-<body>
-	<div class="container-fluid p-0">
-        <div id="dp-header" class="d-flex flex-column flex-lg-row justify-content-around align-items-center">
-        	<div id="dp-iconos-verticales">
-        		<a href="https://www.linkedin.com/in/deivy-paul-guti%C3%A9rrez-vielma/" target="_blank"><img src="/dpaul20/public/img/redes-vertical/linkedin-brands.png" alt="linkedin"></a>
-				
-				<!-- <img src="/dpaul20/public/img/redes-vertical/facebook-brands.png" alt="facebook">
-				<img src="/dpaul20/public/img/redes-vertical/twitter-brands.png" alt="twitter">
-				<img src="/dpaul20/public/img/redes-vertical/instagram-brands.png" alt="instagram"> -->
-        	</div>
+            <div class="ml-8">
+              <ul class="list-disc">
+                <li>NodeJS</li>
+                <li>NestJS Framework</li>
+                <li>JestJS</li>
+                <li>PHP</li>
+                <li>Laravel Framework</li>
+                <li>PHPUnit</li>
+                <li>VueJS Framework</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+                <li>Tailwinds CSS</li>
+                <li>Bootstrap CSS</li>
+              </ul>
+            </div>
+          </div>
 
-        	<div id="dp-perfil">
-				<a href="sobre-mi.html">
-					<img src="/dpaul20/public/img/dp-perfil.png" alt="Foto Deivy" class="dp-perfil">
-				</a>
-        	</div>
+          <br />
+          <div>
+            <div class="my-2 uppercase font-semibold underline">Contact</div>
 
-			<div class="p-3 text-white sobre-mi text-center d-lg-none">
-				<p>Hola soy Deivy, nací en Venezuela. <br> Soy programador Fullstack PHP desde el año 2012. Me destaco con algunos frameworks como Laravel y Yii. También tengo conocimiento en Drupal 8 y de React JS. <br> Si quieres conocer un poco más sobre mi entra <a href="sobre-mi.html" class="text-decoration-none"> 👉 aquí</a> </p>
-			</div>
-        	<div class="frameworks p-3 rounded d-none d-lg-block">
-				<h4 class="text-white-50">Frameworks</h4>
-				<div class="d-lg-flex justify-content-around align-items-center">
-					<div class="img-fluid custom-slide p-2"><img src="/dpaul20/public/img/framework/laravel.svg"><img class="ml-1" src="/dpaul20/public/img/framework/laravel-2.svg"></div>
-					<div class="img-fluid custom-slide p-2"><img src="/dpaul20/public/img/framework/yii.svg"></div>
-					<div class="img-fluid custom-slide p-2 d-flex align-items-center"><img src="/dpaul20/public/img/framework/drupal.png"> <h4 class="m-0 ml-1 text-white-50">Drupal 8</h4></div>
-				</div>
-			</div>
-			
-        
+            <div class="my-2 flex flex-row">
+              <div class="mr-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M8 16.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 4a3 3 0 013-3h6a3 3 0 013 3v12a3 3 0 01-3 3H7a3 3 0 01-3-3V4zm4-1.5v.75c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75V2.5h1A1.5 1.5 0 0114.5 4v12a1.5 1.5 0 01-1.5 1.5H7A1.5 1.5 0 015.5 16V4A1.5 1.5 0 017 2.5h1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              +54 351 6106891
+            </div>
+            <div class="my-2 flex flex-row">
+              <div class="mr-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z"
+                  />
+                  <path
+                    d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z"
+                  />
+                </svg>
+              </div>
+              deivy.gutierrez@gmail.com
+            </div>
+            <div class="my-2 flex flex-row">
+              <div class="mr-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"
+                  />
+                  <path
+                    d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"
+                  />
+                </svg>
+              </div>
+              <a
+                href="https://www.linkedin.com/in/deivy-paul-guti%C3%A9rrez-vielma"
+                target="_blank"
+                rel="linkedin de Deivy Gutiérrez"
+                >My linkedin</a
+              >
+            </div>
+            <div class="my-2 flex flex-row">
+              <div class="mr-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              Córdoba, Argentina
+            </div>
+          </div>
         </div>
-		<div class="d-none d-lg-flex align-items-center justify-content-around">
-			<div class="p-3 text-white sobre-mi mr-auto">
-				<p>Hola soy Deivy, nací en Venezuela. <br> Soy programador Fullstack PHP desde el año 2012. Me destaco con algunos frameworks como Laravel y Yii. También tengo conocimiento en Drupal 8 y de React JS. <br> Si quieres conocer un poco más sobre mi entra <a href="sobre-mi.html" class="text-decoration-none"> 👉 aquí</a> </p>
-			</div>
-			<div class="m-auto">
-				<a class="btn btn-outline-primary" download="Deivy_cv" href="/dpaul20/public/documents/curriculum-vitae-deivy-01-06-2021.pdf">Descargar CV</a>
-			</div>
-			
-		</div>
-		
-        <div id="dp-contenedor-ppal">
-        	<div id="dp-contenido-ppal">
-                <div class="dp-titulo">
-                    Algunos de mis trabajos propios
-                </div>
-        		<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
-        			<div class="centrar-imagen">
-        				<img src="/dpaul20/public/img/galeria/gutviel.png" alt="gutviel">
-        			</div>
-        			<div class="centrar-imagen">
-        				<img src="/dpaul20/public/img/galeria/copeielvigia2.png" alt="copeielvigia2">
-        			</div>
-        		</div>
-        		<div id="dp-btn-vermas">
-        			<a href="mi-trabajo.html">Quiero ver más</a>
-        		</div>
-        	</div>
-        	<div id="dp-contenedor-contacto">
-        		<div class="dp-titulo-contacto">
-        			Si quieres contactarme
-        		</div>
-        		<div class="dp-contenido-contacto">
-        			Celular: <a href="tel:+54 351-6105891">+54 351-6105891</a>.<br>  
-					
-					Correo: <a href="mailto:deivy.gutierrez@gmail.com">deivy.gutierrez@gmail.com</a>.<br> 
-					<div id="dp-iconos-redes">
-						<a href="https://www.linkedin.com/in/deivy-paul-guti%C3%A9rrez-vielma/" target="_blank"><img src="/dpaul20/public/img/redes/linkedin-brands.png" alt="linkedin"></a>
-						<!-- <img src="/dpaul20/public/img/redes/facebook-brands.png" alt="facebook">
-						<img src="/dpaul20/public/img/redes/twitter-brands.png" alt="twitter">
-						<img src="/dpaul20/public/img/redes/instagram-brands.png" alt="instagram"> -->
-					</div>
-        		</div>		
-        	</div>
-        	
+      </div>
+
+      <div class="basis-3/5 m-8">
+        <div class="">
+          <div class="uppercase font-semibold bg-amber-100 px-4 text-xl">
+            Latest Work Experiences
+          </div>
+          <div class="my-4">
+            <div class="uppercase font-semibold">Darwoft | 2019 - Present</div>
+            <div class="text-gray-400">Full-stack Sr Developer</div>
+            <div class="my-1">
+              I have been working together with partners such as Claro, Atlann,
+              Snowshoe, Hometown and TTSViajes. Technologies used: NodeJS,
+              NestJS Framework, PHP, Laravel framework, Yii framework v1,
+              Bootstrap, Tailwinds CSS, CSS and JavaScript.
+            </div>
+          </div>
+          <hr />
+          <div class="my-4">
+            <div class="uppercase font-semibold">Sawubona | 2019 - 2019</div>
+            <div class="text-gray-400">Backend (PHP) SSR Developer</div>
+            <div class="my-1">
+              Working together with partners and own fidelity systems.
+              Technologies used: PHP, Yii v1 framework, Bootstrap and
+              JavaScript.
+            </div>
+          </div>
+          <hr />
+          <div class="my-4">
+            <div class="uppercase font-semibold">AlgarTech | 2017 - 2019</div>
+            <div class="text-gray-400">Systems Analyst</div>
+            <div class="my-1">
+              Software maintenance and support systems for Renault LATAM.
+              Technologies used: Maintenance of the own Renault systems.
+            </div>
+          </div>
+          <hr />
+          <div class="my-4">
+            <div class="uppercase font-semibold">
+              Alberto Adriani Town Hall | 2012 - 2016
+            </div>
+            <div class="text-gray-400">Full-stack (PHP) jr Developer</div>
+            <div class="my-1">
+              Working on own systems for town hall. Technologies used: PHP, MVC
+              structures, MySQL and CSS.
+            </div>
+          </div>
         </div>
+
+        <div>
+          <br />
+          <div class="uppercase font-semibold bg-amber-100 px-4 text-xl">
+            LANGUAGES
+          </div>
+          <br />
+          <div>
+            <div class="my-1">Spanish: Native</div>
+            <div class="my-1">English: Intermediate</div>
+          </div>
+        </div>
+
+        <div>
+          <br />
+          <div class="uppercase font-semibold bg-amber-100 px-4 text-xl">
+            EDUCACTION
+          </div>
+          <br />
+          <div>
+            <div class="my-1">2012 | Mérida - Venezuela</div>
+            <div class="my-1 font-semibold">Systems Engineer</div>
+            <div class="my-1">
+              National Experimental University of the Armed Forces
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-	
-	<script type="text/javascript" src="/dpaul20/public/js/app.js"></script>	
-</body>
+
+    <script type="text/javascript" src="/dpaul20/public/js/app.js"></script>
+  </body>
 </html>
